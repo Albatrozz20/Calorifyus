@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefd3;
+}
+.banner
+{
+    background-image: url(./s.jpg);
+    background-position: left top; 
+    animation: scroll 3s linear infinite alternate;
+    height: 70px;
+    margin-top: -22px;
+    border-bottom: black 2px solid;
+}
+@keyframes scroll
+{
+    0% {background-position: left top;}
+    100% {background-position: right top;}
+}
+
+.banner h1{
+
+    text-align: left;
+    color: white;
+    font: small-caps;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.banner h3{
+
+    text-align: left;
+    color: white;
+    font: small-caps;
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 0;
+}
+.banner img{
+    height: 60px;
+    width: 45px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.divh1 {
+    color: red;
+}
